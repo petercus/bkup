@@ -5,7 +5,7 @@ select opt in $OPTIONS; do
 		echo done
 		exit
 	elif [ "$opt" = "Hello" ]; then
-		echo Hello Nisargadatta
+		echo How are you Nisargadatta?
 	else
 		clear
 		echo bad option
