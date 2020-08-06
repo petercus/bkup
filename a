@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# A wonderful program
 OPTIONS="Hello Quit"
 select opt in $OPTIONS; do
 	if [ "$opt" = "Quit" ]; then
